@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 
-import saveTodo from "../features/todoSlice";
+import { saveTodo } from "../features/todoSlice";
 
 import "./Input.css";
 
